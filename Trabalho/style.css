@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(90, 88, 88);
+    font-size: 26px;
+    padding: 0;
+    margin: 0;
+}
+
+.Titulo{
+    color: chartreuse;
+    text-align: center;
+}
+
+p{
+    font-size: 26px;
+    margin-left: 20px;
+}
+
+.lista{
+    margin-bottom: 15px;
+}
+
+.imagens{
+    border-radius: 15px;
+    height: auto;
+    width: 300px;
+}
+.imagemSteam{
+    border-radius: 15px;
+    width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.imagemCentralizada{
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+table td {
+    border: 2px solid #ccc;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #2b2828;
+}
+
+table img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+a{
+    margin-left: 20px;
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+#mostrarMensagem{
+    margin-left: 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-weight: bold;
+}
